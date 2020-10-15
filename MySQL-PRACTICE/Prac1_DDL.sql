@@ -1,5 +1,6 @@
 create table 고객(
 	고객아이디 varchar(20) not null,
+    고객이름 varchar(10) not null,
     나이 int,
     등급 varchar(10) not null,
     직업 varchar(20),

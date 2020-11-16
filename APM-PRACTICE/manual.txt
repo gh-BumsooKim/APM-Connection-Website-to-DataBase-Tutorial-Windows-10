@@ -2,6 +2,6 @@ Copy and Paste all Files(.html and .php) to "C:\xampp\htdocs"
 
 In Browser, open url "http://localhost/website.html"
 
-(Or execute movefiles.sh file)
+(Or execute movefiles.sh file, but you should install git-for-windows.exe in Windows)
 
 ※ You should install XAMPP in "https://www.apachefriends.org/index.html", and check mysql and XAMPP version. 

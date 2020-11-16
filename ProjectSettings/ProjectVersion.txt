@@ -1,0 +1,7 @@
+Environment
+- OS : Windows10
+- DataBase : MySQL Workbench 8.0 CE
+- XAMPP Windows 7.2.9
+
+Version
+- python 

@@ -34,7 +34,9 @@ skip-character-set-client-handshake
 
 Reboot OS.
 
-Open XAMPP with admin rights, and Check box 'Apache Service' and Press start button.
+Open XAMPP with admin rights, and Check box 'Apache Service' and Press start button. (following image is reference.)
+
+<p align="center"><img src="https://github.com/gh-BumsooKim/APM-Connection-Website-to-DataBase-Tutorial-Windows-10/blob/master/docs/xampp.png"></img></p>
 
 Reboot OS.
 

@@ -1,6 +1,9 @@
 # How To Connect Website to DataBase (MySQL) Using Php or Python Based on APM on Windows 10
 
-<i> Last updated: 11/17/2020 </i>
+*Last updated: 11/17/2020*
+  
+*A Korean translation of this tutorial is located in the [translate folder.](https://github.com/gh-BumsooKim/APM-Connection-Website-to-DataBase-Tutorial-Windows-10/blob/master/translate/README.md)*
+
 
 <b>\<Used Programming Language for ServerScript\></b>
 

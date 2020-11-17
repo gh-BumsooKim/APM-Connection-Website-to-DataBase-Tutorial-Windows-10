@@ -34,6 +34,7 @@ character-set-server = utf8
 default_authentication_plugin = mysql_native_password
 skip-character-set-client-handshake
 ```
+(Change origin authentication into mysql_native_password method for php compatibility.)
 
 Reboot OS.
 

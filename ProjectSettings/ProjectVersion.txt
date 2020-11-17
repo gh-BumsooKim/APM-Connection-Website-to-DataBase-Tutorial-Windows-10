@@ -1,5 +1,5 @@
 Environment
-- OS : Windows10
+- OS : Windows10 64bit
 - DataBase : MySQL Workbench 8.0 CE
 - XAMPP Windows 7.2.9
 

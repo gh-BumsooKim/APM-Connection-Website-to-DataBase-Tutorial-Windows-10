@@ -11,9 +11,22 @@
 	$con=mysqli_connect("localhost","TestUSER","1234") or die("MySQL 접속 실패");
 	if(mysqli_connect_error($con)){
 		echo "mysql 접속 실패" , "<br>";
-		echo "오류 : " , mysqli_connect_error();
+		echo "오류 : " , mysqli_connect_error() , "<br>";
 		exit();
 	}
-	echo "mysql 접속 성공";
+	else{
+		echo "mysql 접속 성공" , "<br>";
+	}
+	
+	/* DataBase 생성 */
+	$sql = "CREATE DATABASE TestDB1";
+	$ret = mysqli_query($con,$sql);
+	if($ret){
+		echo "TestDB 생성" , "<br>";
+	}
+	else{
+		echo "오류 : " , mysqli_error($con) , "<br>";
+	}
+	
     mysqli_close($con);
 ?>

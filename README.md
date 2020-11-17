@@ -13,6 +13,9 @@ B. python - Used 3 Method : CGI, mod_python, WSGI
 
 C. perl
 
+## Introduction
+The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. This tutorial is based on APM method. At first, user fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin rights. Open MySQl Workbench, you can check data in table for root account. (It works in localhost, but not yet check it works completely in webserver.)
+
 ## Steps
 ### 1. Install MySQL, XAMPP
 In https://downloads.mysql.com/archives/installer/, you should download MySQL Project Version 8.0.11 and check Microsoft Windows Operating System. (You can download other Product Version in 8.0.XX. But I do not check upper than 8.0.XX version) (Please Check, Operating System is 64bit Windows10) Then can see msi file is downloaded. msi file is installer file using 'Windows Installer' and it means that "This Program will be istalled while checking important dll file to not fall into a 'dll hole problem'." 

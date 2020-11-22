@@ -2,17 +2,18 @@
 # 'cd' command = change directory
 
 cd ../website/
-cp index.html C:/xampp/htdocs/index.html
-# mv index.html C:/xampp/htdocs/index.html
+cp createDB.html C:/xampp/htdocs/createDB.html
+# mv createDB.html C:/xampp/htdocs/createDB.html
 
 cd ../php/
-cp svs.php C:/xampp/htdocs/svs.php
-# mv svs.php C:/xampp/htdocs/svs.php
+find . -name '*.php' -exec cp {} C:/xampp/htdocs \;
+# find . -name '*.php' -exec mv {} C:/xampp/htdocs \;
 
 # Open Chrome Browser
-start chrome http://localhost/index.html
+start chrome http://localhost/createDB.html
 
 :<<'END'
 Instead of 'cp' command, yon can 'mv' command 
 Not to copy and paste But to move files completely.
 END
+

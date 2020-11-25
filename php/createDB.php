@@ -14,10 +14,10 @@
 		 
 			1. Session : store data in Server
 				session_start();
-				$_SESSION['NAME'] = $DBname;
+				$_SESSION['NAME'] = variable;
 		 
 			2. Cookie : store data in Client 
-				setcookie('NAME',variable);
+				setcookie('NAME', variable);
 		*/
 		setcookie('DBname',$DBname);
 		echo "<A HREF='createTB.php'>--테이블 만들기--</A>";	

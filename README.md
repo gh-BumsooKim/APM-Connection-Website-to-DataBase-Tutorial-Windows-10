@@ -1,6 +1,6 @@
 # How To Connect Website to DataBase (MySQL) Using Php or Python Based on APM on Windows 10
 
-*Last updated: 11/23/2020*
+*Last updated: 11/26/2020*
   
 *A Korean translation of this tutorial is located in the [translate folder.](https://github.com/gh-BumsooKim/APM-Connection-Website-to-DataBase-Tutorial-Windows-10/blob/master/translate/README.md)*
 
@@ -14,7 +14,7 @@ B. python - Used 3 Method : CGI, mod_python, WSGI
 C. perl
 
 ## Introduction
-The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin rights. Open MySQl Workbench, you can check data in table for root account. (It works in localhost, but not yet check it works completely in webserver.)
+The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin privileges. Open MySQl Workbench, you can check data in table for root account. (It works in localhost, but not yet check it works completely in webserver.)
 
 ## Steps
 ### 1. Install MySQL, XAMPP
@@ -23,7 +23,7 @@ In https://downloads.mysql.com/archives/installer/, you should download MySQL Pr
 To install XAMPP, open url https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.2.9/. You should check XAMPP Version is 'xampp-win32-7.2.9-0-VC15-installer.exe'. (I do not check other XAMPP version is completely works.)
 
 ### 2. Run Apach Service
-Open CMD with admin rights, and Run the following commands in terminal.
+Open CMD with admin privileges, and Run the following commands in terminal.
 ```
 CD %PROGRAMDATA%
 CD MySQL
@@ -41,7 +41,7 @@ skip-character-set-client-handshake
 
 Reboot OS.
 
-Open XAMPP with admin rights, and Check box 'Apache Service' and Press start button. (following image is reference.)
+Open XAMPP with admin privileges, and Check box 'Apache Service' and Press start button. (following image is reference.)
 
 <p align="center"><img src="https://github.com/gh-BumsooKim/APM-Connection-Website-to-DataBase-Tutorial-Windows-10/blob/master/docs/xampp.png"></img></p>
 

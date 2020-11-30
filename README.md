@@ -14,7 +14,7 @@ B. python - Used 3 Method : CGI, mod_python, WSGI
 C. perl
 
 ## Introduction
-The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin privileges. Open MySQl Workbench, you can check data in table for root account.
+The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin privileges. Open MySQl Workbench, you can check data in table for root account.(If you want to connect Apache Webser from external ip, you should remove php file in root following C:\xampp\htdocs\index.php and copy&paste your custom index.html)
 
 ## Steps
 ### 1. Install MySQL, XAMPP

@@ -1,6 +1,6 @@
 # How To Connect Website to DataBase (MySQL) Using Php or Python Based on APM on Windows 10
 
-*Last updated: 11/26/2020*
+*Last updated: 11/30/2020*
   
 *A Korean translation of this tutorial is located in the [translate folder.](https://github.com/gh-BumsooKim/APM-Connection-Website-to-DataBase-Tutorial-Windows-10/blob/master/translate/README.md)*
 
@@ -14,7 +14,7 @@ B. python - Used 3 Method : CGI, mod_python, WSGI
 C. perl
 
 ## Introduction
-The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin privileges. Open MySQl Workbench, you can check data in table for root account. (It works in localhost, but not yet check it works completely in webserver.)
+The purpose of this tutorial is to explain how to connect Website to MySQL DataBase based on APM Method. Word "APM" means 'A'pache(Web Server) + 'P'hp(Server Script Language) + 'M'ysql(DataBase). Also, instead of php server script language, you can use other language such as python and perl. Python used 3 method in this repo as CGI, mod_python and WSGI. At first, User fills data in Website made by html source. Then php receive data from html as form and submit tag method. Php received data store it to MySQL DataBase after connection DataBase for admin privileges. Open MySQl Workbench, you can check data in table for root account.
 
 ## Steps
 ### 1. Install MySQL, XAMPP

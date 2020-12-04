@@ -11,9 +11,10 @@ find . -name '*.php' -exec cp {} C:/xampp/htdocs \;
 
 # Open Chrome Browser
 start chrome http://localhost/createDB.html
+#start chrome http://xxx.xxx.xxx.xxx/creteaDB.html
+# **input your IPv4 Address** ^^^ here 
 
 :<<'END'
 Instead of 'cp' command, yon can 'mv' command 
 Not to copy and paste But to move files completely.
 END
-

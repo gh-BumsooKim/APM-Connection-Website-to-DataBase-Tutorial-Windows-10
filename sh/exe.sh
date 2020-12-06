@@ -17,4 +17,5 @@ start chrome http://localhost/createDB.html
 :<<'END'
 Instead of 'cp' command, yon can 'mv' command 
 Not to copy and paste But to move files completely.
+And You should install "Git for Windows" with GitBash.
 END

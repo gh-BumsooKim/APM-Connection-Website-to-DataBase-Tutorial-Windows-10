@@ -1,6 +1,6 @@
-CREATE USER 'TestUSER'@'%' IDENTIFIED WITH mysql_native_password BY '1234' ;
-GRANT ALL PRIVILEGES ON *.* TO 'TestUSER'@'%' WITH GRANT OPTION;
+CREATE USER 'USER1'@'%' IDENTIFIED WITH mysql_native_password BY '1234' ;
+GRANT ALL PRIVILEGES ON *.* TO 'USER1'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
--- Create Admin User  
+-- Create User  
 -- In root
